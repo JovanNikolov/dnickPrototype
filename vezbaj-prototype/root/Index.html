@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+
+    <link rel="icon" href="../images/logo.png">
+
+    <title>Почетна | vezbaj.mk</title>
+    <style>
+        * {box-sizing: border-box;}
+        ul {list-style-type: none;}
+        body {font-family: Verdana, sans-serif;}
+        .news-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .news-child{
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body style="background-color: #2c3034">
+
+<!-- Navbar -->
+<nav class="navbar  navbar-expand-lg navbar-light" style="background-color: coral;">
+    <div class="container-fluid">
+        <!--Navbar logo-->
+        <a class="navbar-brand" href="Index.html">
+            <img src="../images/logo.png" alt="" width="40" height="40" class="d-inline-block align-text-center">
+            <span>vezbaj.mk</span>
+        </a>
+
+        <!-- Nav links -->
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav text-white me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Index.html">Почетна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Program.html">Програма за вежбање</a>
+                </li>
+            </ul>
+
+            <!--Login-->
+            <a class="btn btn-danger rounded-pill" href="Login.html">Најави се</a>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="ct-blog col-sm-12 col-md-12">
+            &nbsp
+        <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1" style="background-color: #4f5050"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2" style="background-color: #4f5050"></button>
+                <button class="carousel-dark" type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3" style="background-color: #4f5050"></button>
+            </div>
+
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-dark" data-bs-ride="carousel">
+                    <img src="../images/carousel-upper-body.png" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="btn" href="#">Upper body workout</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-dark">
+                    <img src="../images/carousel-lower-body.png" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="btn" href="#">Lower body workout</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-dark">
+                    <img src="../images/carousel-cardio.png" class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="btn" href="#">Cardio workout</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Carousel controls -->
+            <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselCaptions"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselCaptions"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+            &nbsp
+            <div class="text-white ct-blog col-sm-12 col-md-12 text-center">
+                <a class="text-warning" href="Index.html">Вежбај</a> е место каде што можете да ги најдете сите алатки за вашите фитнес потреби.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="news-container">
+        <div class="news-child border-bottom pb-3 mt-3" style="padding-right: 20px">
+            <div>
+                <img src="../images/carousel-upper-body.png" alt="" class="image" style="width: 100%">
+            </div>
+            <div>
+                <h3 class="text-white">Најнови вести од фитнес светот</h3>
+                <div class="text-white">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet atque beatae consequuntur debitis
+                    doloremque, ea facilis harum incidunt inventore laudantium maiores mollitia nesciunt non provident, quae
+                    quia rem sapiente.
+                </div>
+                <div>
+                    <button class="btn btn-primary mt-3">Прегледај</button>
+                </div>
+            </div>
+        </div>
+        <div class="news-child border-bottom pb-3 mt-3" style="padding-left: 20px">
+            <div>
+                <img src="../images/carousel-upper-body.png" alt="" class="image" style="width: 100%">
+            </div>
+            <div>
+                <h3 class="text-white">Здрави и лоши масти</h3>
+                <div class="text-white">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet atque beatae consequuntur debitis
+                    doloremque, ea facilis harum incidunt inventore laudantium maiores mollitia nesciunt non provident, quae
+                    quia rem sapiente.
+                </div>
+                <div>
+                    <button class="btn btn-primary mt-3">Прегледај</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="../bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
